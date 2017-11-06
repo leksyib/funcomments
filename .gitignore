@@ -1,13 +1,7 @@
 node_modules/**/*
-<<<<<<< HEAD
-yarn.lock
-package-lock.json
-.vscode/
-=======
 
 #package-lock
 package-lock.json
 
 #yarn.lock
 yarn.lock
->>>>>>> b030a9493ab8afe79a56c41a3470e826ef3a144c
