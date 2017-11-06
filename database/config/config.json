@@ -2,7 +2,11 @@
   "use_env_variable": "DATABASE_URL"
 },
 "test": {
+<<<<<<< HEAD
   "username": "***********",
+=======
+  "username": "*****",
+>>>>>>> edd7d9f62da2da7f5f695c469dc17d6b81bc26ea
   "password": null,
   "database": "todos-test",
   "host": "127.0.0.1",

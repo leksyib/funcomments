@@ -1,8 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const controller1 = require('../controllers/controller1.js')
+const routesController = require('../controllers/routesController.js');
 
-router.get('/', controller1.home);
-router.get('/signUp', controller1.signup);
-router.get('/login', controller1.login);
+router.get('/', routesController.home);
+router.get('/signUp', routesController.signup);
+router.get('/login', routesController.login);
+router.get('*', routesController.error);
 module.exports = router;
