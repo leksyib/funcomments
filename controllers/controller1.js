@@ -3,5 +3,5 @@ exports.home = (req, res) => {
 };
 
 exports.signup = (req, res) => {
-    res.render('signUP', {title: 'Sign up'});
+    res.render('sign-up', {title: 'Sign up'});
 };
