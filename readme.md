@@ -1,0 +1,1 @@
+# FunComments is a fun friends app, send the links to anyone and they can write comments about you.
